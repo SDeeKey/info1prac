@@ -1,0 +1,45 @@
+.web-page {
+  font-family: Arial, sans-serif;
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 20px;
+
+  h1 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  h2 {
+    color: #555;
+    font-size: 20px;
+    margin-bottom: 16px;
+  }
+
+  h3 {
+    color: #777;
+    font-size: 18px;
+    margin-bottom: 14px;
+  }
+
+  p {
+    line-height: 1.6;
+    margin-bottom: 10px;
+  }
+
+  ol, ul {
+    padding-left: 20px;
+    margin-bottom: 10px;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+
+  audio, video {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}

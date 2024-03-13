@@ -1,0 +1,58 @@
+.home {
+  .mainContentHome {
+    h1{
+      position: absolute;
+      margin: 200px 0 0 70px;
+      color: white;
+    }
+    .navLine {
+      .backgroundImage {
+        position: absolute;
+        max-height: 950px;
+        z-index: -1;
+      }
+    }
+
+    .btns {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      column-gap: 100px;
+      button:hover {
+        scale: 1.05;
+      }
+
+
+      a {
+        color: Black;
+        font-family: Montserrat;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-decoration: none;
+      }
+
+      p {
+        justify-content: center;
+        align-items: center;
+      }
+
+      .firstBtn, .secondBtn, .thirdBtn, .fourthBtn {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        position: relative;
+        margin-top: 50px;
+        display: flex;
+        border: 1px solid gray;
+        width: 250px;
+        height: 70px;
+        border-radius: 35px;
+
+
+      }
+    }
+  }
+}

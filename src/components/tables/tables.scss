@@ -1,0 +1,57 @@
+.table{
+  //display: flex;
+  //flex-direction: column;
+  margin: 50px;
+  .mainContentTable{
+    display: flex;
+    flex-direction: row;
+
+    .table1{
+      display: flex;
+      margin-right: 50px;
+      flex-direction: row;
+      .firstTable{
+        width: 300px;
+        border-collapse: collapse;
+        td{
+          border: 1px solid #000;
+          //border-collapse: collapse;
+          text-align: start;
+          vertical-align: top;
+        }
+      }
+    }
+    .table2{
+      display: flex;
+      margin-right: 50px;
+      .secondTable{
+        width: 300px;
+        border-collapse: collapse;
+        td{
+          border: 1px solid #000;
+          text-align: start;
+          vertical-align: top;
+        }
+        #td1{
+          text-align: center;
+        }
+        #td9{
+          text-align: end;
+        }
+      }
+    }
+    .table3{
+      display: flex;
+      margin-right: 50px;
+      .thirdTable{
+        width: 300px;
+        border-collapse: collapse;
+        td{
+          border: 1px solid #000;
+          text-align: start;
+          vertical-align: top;
+        }
+      }
+    }
+  }
+}
